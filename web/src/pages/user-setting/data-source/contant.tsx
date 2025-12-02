@@ -387,7 +387,7 @@ export const DataSourceFormFields = {
       name: 'config.project_key',
       type: FormFieldType.Text,
       required: false,
-      placeholder: 'RAGFlow',
+      placeholder: '蓝森科技',
       tooltip: t('setting.jiraProjectKeyTip'),
     },
     {

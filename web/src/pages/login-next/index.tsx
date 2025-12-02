@@ -165,15 +165,17 @@ const Login = () => {
                 className="size-8 mr-[12] cursor-pointer"
               />
             </div>
-            <div className="text-xl font-bold self-center">RAGFlow</div>
+            <div className="flex flex-col">
+              <div className="text-xl font-bold">昆明蓝森科技有限公司</div>
+              <div className="text-sm text-text-disabled">
+                Kunming Lansen Technology Co., Ltd.
+              </div>
+            </div>
           </div>
-          <h1 className="text-[36px] font-medium  text-center mb-2">
-            {t('title')}
+          <h1 className="text-[36px] font-medium text-center mb-2">
+            基于知识的企业私域大模型平台
           </h1>
-          {/* border border-accent-primary rounded-full */}
-          {/* <div className="mt-4 px-6 py-1 text-sm font-medium text-cyan-600  hover:bg-cyan-50 transition-colors duration-200 border-glow relative overflow-hidden">
-            {t('start')}
-          </div> */}
+          <p className="text-lg text-text-disabled text-center">通用解决方案</p>
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[1050px] px-4 sm:px-6 lg:px-8">
           {/* Logo and Header */}
